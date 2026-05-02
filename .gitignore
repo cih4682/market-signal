@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE / Agent tools
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+.claude/
+.codex/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit secrets (never commit)
+.streamlit/secrets.toml
+
+# Logs / temp
+*.log
+sample.html
+sample.txt
+*.tmp
+*.bak
+
+# Data outputs (don't commit user-generated files)
+*.xlsx
+output/
+data/
+
+# OpenSpec workflow (project-specific)
+openspec/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
